@@ -22,10 +22,11 @@ describe Task do
 	end
 	describe "make_incomplete!" do
 		it "afert completing a task, complete attribute will return true" do
-			expect(@task.complete?).to eq(false)
+			#expect(@task.complete?).to eq(false)
 			@task.complete!
-			expect(@task.complete?).to eq(true)
-			expect(@task.make_incomplete!).to eq(false)
+			#expect(@task.complete?).to eq(true)
+			@task.make_incomplete!
+			expect(@task.complete?).to eq(false)
 		end
 	end
 	describe "created_at attribute" do
@@ -43,14 +44,14 @@ describe Task do
 			expect(task2.content).to eq("Walk the milk")
 			task.update_content!("Buy the milk")
 			task2.update_content!("Walk the dog")
-			expect(task.content).to eq("Buy the milk") 
+			expect(task.content).to eq("Buy the milk")
 			expect(task2.content).to eq("Walk the dog")
 		end
 	end
 	describe "update_at attribute" do
 		it "" do
 			task = Task.new("Buy the dog")
-			expect(task.update_at).to eq(nil) 
+			expect(task.update_at).to eq(nil)
 			task.update_content!("Buy the milk")
 			expect(task.update_at.class).to eq(Time)
 		end

@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
+}
+
+.post {
+  padding: 10px;
+}
+.prof_pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 0 0 5px;
+}
+.blue{
+  background-color: cadetblue;
+}
+.black{
+  background-color: black;
+}
+.grey{
+  background-color: darkgrey;
+}
+.notification {
+  display: inline-block;
+  padding: 7px 3px;
+  font-size: 11px;
+  opacity: .6;
+  color: gray;
+}
+.inside_post {
+  border-radius: 4px;
+  background-color: white;
+}
+.title {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  font-size: 12px;
+}
+.content {
+  padding: 10px;
+}
+.money {
+  color: #F3AB4C;
+  font-size: 11px;
+}
+.cents {
+  background-color: #F3AB4C;
+  color: white;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  font-weight: 900;
+  border-radius: 7px;
+  text-align: center;
+  margin-right: 4px;
+}
+.tag {
+  font-size: 10px;
+  margin: 0 3px;
+  padding: 1px 4px;
+  border: 1px solid lightgray;
+  color: lightgray;
+}
+.red_tag {
+  color: red;
+  font-weight: 400;
+}
+
+.text_content{
+  padding: 5px 0 5px 0;
+}
+.comment {
+  color: #2889D8;
+  border: 1px solid #2889D8;
+  padding: 4px 12px;
+  border-radius: 15px;
+  width: 78px;
+  display: inline-block;
+  font-size: 11px;
+}
