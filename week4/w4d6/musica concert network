@@ -1,0 +1,10 @@
+music concert network
+
+model = concert
+controlle = concert
+
+views: index/concerts/, new/new_concert/ (add concert), show/conert/ (concert details), 
+variables (With validation): artist, venue, city, date, price and description
+
+hedder and footer for pages 
+
