@@ -1,0 +1,15 @@
+.container {
+  height: 500px;
+  width: 500px;
+}
+.cell {
+  display: inline-block;
+  height: 10%;
+  width: 10%;
+}
+.b {
+  background-color: black;
+}
+.w {
+  background-color: white;
+}

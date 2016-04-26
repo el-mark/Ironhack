@@ -1,0 +1,14 @@
+.s {
+  height: 40px;
+  width: 40px;
+  display: inline-block;;
+}
+.w {
+  background-color: white;
+}
+.b {
+  background-color: black;
+}
+.l {
+  display: block;
+}

@@ -1,0 +1,9 @@
+.box{
+  border: black solid;
+  padding: 5px;
+  margin: 5px;
+}
+#hideAndShow {
+  color: blue;
+  text-decoration: underline;
+}
